@@ -22,12 +22,6 @@ public class GameManager : MonoBehaviour {
         Singleton();
     }
 
-    // Update is called once per frame
-    void Update() {
-
-    }
-
-
     void Singleton() {
         if (Instance != null) {
             Destroy(gameObject);
