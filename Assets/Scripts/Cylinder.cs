@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Cylinder : Shape
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    protected override void DisplayText() {
+        GameManager.Instance.SetText("Cylinder clicked!");
     }
 }
