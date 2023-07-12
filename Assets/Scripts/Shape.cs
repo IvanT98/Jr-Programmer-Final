@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Shape : MonoBehaviour
 {
+    [SerializeField]
+    private string shapeName;
+
+    public string ShapeName { get => shapeName; protected set => shapeName = value; }
+
     protected virtual void DisplayText() {
         GameManager.Instance.SetText("Shape clicked!");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame

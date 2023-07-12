@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f7a38000f106444bbef5c4e1559f15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shapeName: Cylinder
 --- !u!1 &317271247
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &777904517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -853,6 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074682530ee3ab488b51dcbbdefaddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shapeName: Cube
 --- !u!1 &1495907004
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e465da535cc944b89aa0a3d68f1b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shapeName: Sphere
 --- !u!1 &1805354559
 GameObject:
   m_ObjectHideFlags: 0
