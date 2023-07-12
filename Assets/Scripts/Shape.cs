@@ -7,6 +7,7 @@ public class Shape : MonoBehaviour
     [SerializeField]
     private string shapeName;
 
+    // ENCAPSULATION
     public string ShapeName { get => shapeName; protected set => shapeName = value; }
 
     protected virtual void DisplayText() {

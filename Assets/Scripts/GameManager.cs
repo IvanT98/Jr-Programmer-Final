@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField]
     TextMeshProUGUI displayText;
 
+    // ABSTRACTION
     public void SetText(string newText) {
         if (!displayText.gameObject.activeInHierarchy) {
             displayText.gameObject.SetActive(true);
